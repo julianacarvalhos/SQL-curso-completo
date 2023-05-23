@@ -31,12 +31,38 @@ Relacionamento = Ligações entre Tabelas
 `USE curso_sql;`
 
 ## Manipulando Dados 
+### Gerenciando dados
+` INSERT Into Tabela VALUES (Valores)`
+` SELECT Campos FROM Tabela`
+` UPDATE Tabela SET Campo = Valor`
+` DELETE FROM Tabela`
 
-## Relacionamentos e Visões 
+## Relacionamentos no SQL 
+* INNER JOIN 
+* EQUI JOIN 
+* NON EQUI JOIN 
+* OUTER JOIN, LEFT JOIN, LEFT OUTER JOIN 
+* RIGHT JOIN, RIGHT OUTER JOIN 
+* FULL OUTER JOIN 
+* SELF JOIN 
+
+## Visões 
+* CREATE VIEW Nome AS ExpressãoSQL
+* ALTER VIEW Nome Propriedade 
+* DROP VIEW Nome 
 
 ## Funções Especiais e Subqueries 
+### Funções de Agregação: 
+* COUNT 
+* SUM 
+* AVG 
+* MAX 
+* MIN 
 
 ## Controle de Acesso 
+### Forma de garantir que somente pessoas autorizadas possam realizar ações com os dados. 
+* Níveis de acesso 
+* Níveis de ações 
 
 ## Transações ACID 
 * Atomicidade;
@@ -64,4 +90,4 @@ Relacionamento = Ligações entre Tabelas
 * AFTER DELETE;
 * TEMPORAIS
 
-## O curso completo gratuito encontra-se disponível em: https://www.softblue.com.br/
+### O curso completo gratuito encontra-se disponível em: https://www.softblue.com.br/
